@@ -2,7 +2,7 @@
   "name": "myntcore-node",
   "description": "Full node with extended capabilities using myntcore and Myntcoin",
   "author": "Silence48",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "main": "./index.js",
   "repository": "git://github.com/silence48/myntcore-node.git",
   "homepage": "https://github.com/silence48/myntcore-node",
@@ -28,8 +28,8 @@
   ],
   "dependencies": {
     "async": "^2.5.0",
-    "myntd-rpc": "silence48/myntd-rpc",
-    "myntcore-lib": "silence48/myntcore-lib",
+    "myntd-rpc": "^1.0.0",
+    "myntcore-lib": "^1.0.0",
     "body-parser": "^1.18.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "benchmark": "1.0.0",
-    "myntcore-p2p": "silence48/myntcore-p2p",
+    "myntcore-p2p": "^1.0.0",
     "chai": "^4.1.2",
     "coveralls": "^3.0.1",
     "istanbul": "^0.4.3",
