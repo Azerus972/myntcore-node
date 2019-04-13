@@ -27,7 +27,6 @@ shasums_url="${url}/${tag}/SHA256SUMS.asc"
 
 download_myntd() {
 
-    cd "${root_dir}/bin"
 
     echo "Downloading myntcoin: ${binary_url}"
 
